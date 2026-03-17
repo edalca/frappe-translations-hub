@@ -2,8 +2,6 @@
 files:
   - source: /frappe/locale/main.pot
     translation: /frappe/locale/%two_letters_code%.po
-  - source: /erpnext/locale/main.pot
-    translation: /erpnext/locale/%two_letters_code%.po
   - source: /hrms/locale/main.pot
     translation: /hrms/locale/%two_letters_code%.po
 pull_request_title: 'fix: sync translations from crowdin'
