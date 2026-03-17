@@ -1,0 +1,48 @@
+name: Back to Source Repos
+
+on:
+  push:
+    branches:
+      - version-16
+    paths:
+      - 'frappe/locale/*.po'
+      - 'hrms/locale/*.po'
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Hub
+        uses: actions/checkout@v4
+
+      - name: Sync Frappe Translations
+        if: github.event.commits[0].modified != '' # Simplificado
+        env:
+          GH_TOKEN: ${{ secrets.HUB_TRANSLATIONS_TOKEN }}
+        run: |
+          # Configuración de Git
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+          # --- PROCESO PARA FRAPPE ---
+          git clone https://$GH_TOKEN@github.com/edalca/frappe.git frappe_repo
+          cp frappe/locale/es.po frappe_repo/frappe/locale/es.po
+          cd frappe_repo
+          git checkout -b translations-update-$(date +%F)
+          git add .
+          if git commit -m "chore: update spanish translations from hub"; then
+            git push origin translations-update-$(date +%F)
+            gh pr create --title "Translate: Spanish update from Hub" --body "Automatic sync from translations hub" --base version-16 --head translations-update-$(date +%F)
+          fi
+          cd ..
+
+          # --- PROCESO PARA HRMS ---
+          git clone https://$GH_TOKEN@github.com/edalca/hrms.git hrms_repo
+          cp hrms/locale/es.po hrms_repo/hrms/locale/es.po
+          cd hrms_repo
+          git checkout -b translations-update-$(date +%F)
+          git add .
+          if git commit -m "chore: update spanish translations from hub"; then
+            git push origin translations-update-$(date +%F)
+            gh pr create --title "Translate: Spanish update from Hub" --body "Automatic sync from translations hub" --base version-16 --head translations-update-$(date +%F)
+          fi
