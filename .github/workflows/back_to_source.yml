@@ -24,14 +24,15 @@ jobs:
           if [ -f "frappe/locale/es.po" ]; then
             git clone https://$GH_TOKEN@github.com/edalca/frappe.git frappe_repo
             cd frappe_repo
-            git checkout version-16
-            git checkout -b translations-update-$(date +%s)
-            # Copiamos el archivo DESPUÉS del checkout para evitar conflictos
+            # Cambiamos a la rama l10n_version-16 directamente
+            git checkout l10n_version-16 || git checkout -b l10n_version-16
+            
             cp ../frappe/locale/es.po frappe/locale/es.po
             git add .
             if git commit -m "chore: update spanish translations from hub"; then
-              git push origin translations-update-$(date +%s)
-              gh pr create --title "Translate: Spanish update from Hub" --body "Automatic sync" --base version-16
+              git push origin l10n_version-16
+              # Abre el PR de l10n_version-16 hacia version-16 si no existe uno
+              gh pr create --title "Translate: Spanish update (l10n)" --body "Automatic sync from hub" --base version-16 --head l10n_version-16 || echo "PR already exists"
             fi
             cd ..
           fi
@@ -43,14 +44,13 @@ jobs:
           if [ -f "hrms/locale/es.po" ]; then
             git clone https://$GH_TOKEN@github.com/edalca/hrms.git hrms_repo
             cd hrms_repo
-            git checkout version-16
-            git checkout -b hrms-trans-update-$(date +%s)
-            # Copiamos el archivo DESPUÉS del checkout
+            git checkout l10n_version-16 || git checkout -b l10n_version-16
+            
             cp ../hrms/locale/es.po hrms/locale/es.po
             git add .
             if git commit -m "chore: update spanish translations from hub"; then
-              git push origin hrms-trans-update-$(date +%s)
-              gh pr create --title "Translate: HRMS Spanish update from Hub" --body "Automatic sync" --base version-16
+              git push origin l10n_version-16
+              gh pr create --title "Translate: HRMS Spanish update (l10n)" --body "Automatic sync from hub" --base version-16 --head l10n_version-16 || echo "PR already exists"
             fi
             cd ..
           fi
