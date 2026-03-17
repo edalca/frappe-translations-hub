@@ -23,15 +23,17 @@ jobs:
         run: |
           if [ -f "frappe/locale/es.po" ]; then
             git clone https://$GH_TOKEN@github.com/edalca/frappe.git frappe_repo
-            cp frappe/locale/es.po frappe_repo/frappe/locale/es.po
             cd frappe_repo
             git checkout version-16
             git checkout -b translations-update-$(date +%s)
+            # Copiamos el archivo DESPUÉS del checkout para evitar conflictos
+            cp ../frappe/locale/es.po frappe/locale/es.po
             git add .
             if git commit -m "chore: update spanish translations from hub"; then
               git push origin translations-update-$(date +%s)
               gh pr create --title "Translate: Spanish update from Hub" --body "Automatic sync" --base version-16
             fi
+            cd ..
           fi
 
       - name: Sync HRMS
@@ -40,13 +42,15 @@ jobs:
         run: |
           if [ -f "hrms/locale/es.po" ]; then
             git clone https://$GH_TOKEN@github.com/edalca/hrms.git hrms_repo
-            cp hrms/locale/es.po hrms_repo/hrms/locale/es.po
             cd hrms_repo
             git checkout version-16
             git checkout -b hrms-trans-update-$(date +%s)
+            # Copiamos el archivo DESPUÉS del checkout
+            cp ../hrms/locale/es.po hrms/locale/es.po
             git add .
             if git commit -m "chore: update spanish translations from hub"; then
               git push origin hrms-trans-update-$(date +%s)
               gh pr create --title "Translate: HRMS Spanish update from Hub" --body "Automatic sync" --base version-16
             fi
+            cd ..
           fi
