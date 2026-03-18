@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-12-21 09:37+0000\n"
-"PO-Revision-Date: 2026-03-17 05:34\n"
+"PO-Revision-Date: 2026-03-18 05:49\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -410,15 +410,15 @@ msgstr "Atrasos Devengados"
 #: hrms/payroll/doctype/salary_component/salary_component.json
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 msgid "Accrual Component"
-msgstr ""
+msgstr "Componente de Acumulación"
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:66
 msgid "Accrual Component can only be set for Earning Salary Components."
-msgstr ""
+msgstr "El Componente de Acumulación solo puede configurarse para Componentes Salariales de Ingreso."
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:86
 msgid "Accrual Component can only be set for Flexible Benefit Salary Components with accrual payout methods."
-msgstr ""
+msgstr "El Componente de Acumulación solo puede configurarse para Componentes Salariales de Beneficio Flexible con métodos de pago por acumulación."
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:78
 msgid "Accrual Component must be set for Flexible Benefit Salary Components with accrual payout methods."
@@ -3036,7 +3036,7 @@ msgstr "Información del empleado"
 #. Label of a Card Break in the Tenure Workspace
 #: hrms/hr/workspace/tenure/tenure.json
 msgid "Employee Journey"
-msgstr ""
+msgstr "Trayectoria del Empleado"
 
 #. Name of a report
 #. Label of a Link in the HR Workspace
@@ -3781,7 +3781,7 @@ msgstr "Formulario web del cuestionario de salida"
 #. Label of a quick_list in the Tenure Workspace
 #: hrms/hr/workspace/tenure/tenure.json
 msgid "Exits (This Month)"
-msgstr ""
+msgstr "Salidas (Este Mes)"
 
 #. Label of the expected_average_rating (Rating) field in DocType 'Interview'
 #. Label of the expected_average_rating (Rating) field in DocType 'Interview
@@ -6610,7 +6610,7 @@ msgstr "Nuevos comentarios"
 #. Label of a quick_list in the Tenure Workspace
 #: hrms/hr/workspace/tenure/tenure.json
 msgid "New Hires (This Month)"
-msgstr ""
+msgstr "Nuevas Contrataciones (Este Mes)"
 
 #: hrms/hr/report/employee_leave_balance/employee_leave_balance.py:61
 msgid "New Leave(s) Allocated"
@@ -9885,7 +9885,7 @@ msgstr "Actualizaciones equipo"
 #. Name of a Workspace
 #: hrms/hr/workspace/tenure/tenure.json
 msgid "Tenure"
-msgstr ""
+msgstr "Antigüedad"
 
 #. Success message of the job-application Web Form
 #: hrms/hr/web_form/job_application/job_application.json
