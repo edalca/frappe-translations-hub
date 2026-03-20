@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-03-08 09:41+0000\n"
-"PO-Revision-Date: 2026-03-17 04:46\n"
+"PO-Revision-Date: 2026-03-20 09:25\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -8516,7 +8516,7 @@ msgstr ""
 #: frappe/public/js/frappe/model/indicator.js:73
 #: frappe/public/js/frappe/ui/filters/filter.js:537
 msgid "Draft"
-msgstr ""
+msgstr "Borrador"
 
 #: frappe/public/js/frappe/views/workspace/blocks/header.js:46
 #: frappe/public/js/frappe/views/workspace/blocks/paragraph.js:136
@@ -16805,7 +16805,7 @@ msgstr ""
 #: frappe/public/js/frappe/utils/common.js:409
 #: frappe/website/report/website_analytics/website_analytics.js:25
 msgid "Monthly"
-msgstr ""
+msgstr "Mensual"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
@@ -20956,7 +20956,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:422
 msgid "Project"
-msgstr ""
+msgstr "Proyecto"
 
 #. Label of the property (Data) field in DocType 'Property Setter'
 #: frappe/core/doctype/version/version_view.html:73
@@ -25821,7 +25821,7 @@ msgstr ""
 #: frappe/public/js/frappe/utils/common.js:418
 #: frappe/website/doctype/web_page/web_page.json
 msgid "Start Date"
-msgstr ""
+msgstr "Fecha de Inicio"
 
 #. Label of the start_date_field (Select) field in DocType 'Calendar View'
 #: frappe/desk/doctype/calendar_view/calendar_view.json
@@ -25839,7 +25839,7 @@ msgstr "Iniciar grabación"
 #. Label of the birth_date (Datetime) field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
 msgid "Start Time"
-msgstr ""
+msgstr "Hora de Inicio"
 
 #: frappe/templates/includes/comments/comments.html:8
 msgid "Start a new discussion"
@@ -25986,7 +25986,7 @@ msgstr "Intervalo de tiempo de estadísticas"
 #: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: frappe/www/update-password.html:188
 msgid "Status Updated"
@@ -26243,7 +26243,7 @@ msgstr "¿Validar {0} documentos?"
 #: frappe/public/js/frappe/ui/filters/filter.js:538
 #: frappe/website/doctype/web_form/templates/web_form.html:152
 msgid "Submitted"
-msgstr ""
+msgstr "Validado"
 
 #: frappe/workflow/doctype/workflow/workflow.py:104
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
@@ -26298,7 +26298,7 @@ msgstr ""
 #: frappe/workflow/doctype/workflow_action/workflow_action.py:171
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "Success"
-msgstr ""
+msgstr "Éxito"
 
 #. Name of a DocType
 #: frappe/core/doctype/success_action/success_action.json
@@ -30453,7 +30453,7 @@ msgstr "Días de la Semana"
 #: frappe/public/js/frappe/utils/common.js:408
 #: frappe/website/report/website_analytics/website_analytics.js:24
 msgid "Weekly"
-msgstr ""
+msgstr "Semanal"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
