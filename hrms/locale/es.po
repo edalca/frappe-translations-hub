@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-12-21 09:37+0000\n"
-"PO-Revision-Date: 2026-03-18 05:49\n"
+"PO-Revision-Date: 2026-03-20 07:30\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -422,7 +422,7 @@ msgstr "El Componente de Acumulación solo puede configurarse para Componentes S
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:78
 msgid "Accrual Component must be set for Flexible Benefit Salary Components with accrual payout methods."
-msgstr ""
+msgstr "El Componente de Acumulación solo puede configurarse para Componentes Salariales de Beneficio Flexible que utilicen métodos de pago por acumulación."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:627
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
@@ -431,12 +431,12 @@ msgstr "Entrada de Diario de Acumulación para Salarios de {0} a {1}"
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
 msgid "Accrue and payout at end of payroll period"
-msgstr ""
+msgstr "Acumular y pagar al final del período de nómina"
 
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
 msgid "Accrue per cycle, pay only on claim"
-msgstr ""
+msgstr "Acumular por ciclo y pagar únicamente contra reclamo"
 
 #. Label of the accrued_benefits (Table) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -446,11 +446,11 @@ msgstr "Provisiones de Beneficios"
 #. Name of a report
 #: hrms/payroll/report/accrued_earnings_report/accrued_earnings_report.json
 msgid "Accrued Earnings Report"
-msgstr ""
+msgstr "Informe de Ganancias Acumuladas"
 
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.py:99
 msgid "Accrued amount {0} is less than paid amount {1} for Benefit {2} in payroll period {3}"
-msgstr ""
+msgstr "El monto acumulado {0} es menor que el monto pagado {1} para el Beneficio {2} en el período de nómina {3}"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:8
 msgid "Action on Submission"
@@ -478,7 +478,7 @@ msgstr "Días reales cobrables"
 #. Label of the actual_overtime_duration (Float) field in DocType 'Attendance'
 #: hrms/hr/doctype/attendance/attendance.json
 msgid "Actual Overtime Duration"
-msgstr ""
+msgstr "Duración Real de Horas Extras"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:422
 msgid "Actual balances aren't available because the leave application spans over different leave allocations. You can still apply for leaves which would be compensated during the next allocation."
@@ -583,16 +583,16 @@ msgstr "Dirección del Organizador"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.js:51
 msgid "Adjust Allocation"
-msgstr ""
+msgstr "Ajustar Asignación"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:412
 msgid "Adjustment Created Successfully"
-msgstr ""
+msgstr "Ajuste Creado Exitosamente"
 
 #. Label of the adjustment_type (Select) field in DocType 'Leave Adjustment'
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.json
 msgid "Adjustment Type"
-msgstr ""
+msgstr "Tipo de Ajuste"
 
 #. Option for the 'Level' (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
@@ -601,7 +601,7 @@ msgstr "Avanzar"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:44
 msgid "Advance Account is mandatory. Please set the <a href=\"/app/company/{0}#default_employee_advance_account\" target=\"_blank\">Default Employee Advance Account</a> in the Company record {0} and submit this document."
-msgstr ""
+msgstr "La Cuenta de Anticipos es obligatoria. Por favor, configure la <a href='/app/company/{0}#default_employee_advance_account' target='_blank'>Cuenta de Anticipos de Empleados por Defecto</a> en el registro de la Empresa {0} y envíe este documento."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:79
 msgid "Advance Account {} currency should be same as Salary Currency of Employee {}. Please select same currency Advance Account"
