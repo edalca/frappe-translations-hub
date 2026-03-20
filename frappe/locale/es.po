@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-03-08 09:41+0000\n"
-"PO-Revision-Date: 2026-03-20 09:25\n"
+"PO-Revision-Date: 2026-03-20 20:59\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -137,7 +137,15 @@ msgid "0 - too guessable: risky password.\n"
 "3 - safely unguessable: moderate protection from offline slow-hash scenario.\n"
 "<br>\n"
 "4 - very unguessable: strong protection from offline slow-hash scenario."
-msgstr ""
+msgstr "0 - demasiado predecible: contraseña riesgosa.\n"
+"<br> \n"
+"1 - muy predecible: protección contra ataques en línea con limitación de intentos.\n"
+"<br> \n"
+"2 - algo predecible: protección contra ataques en línea sin limitación de intentos.\n"
+"<br> \n"
+"3 - difícil de adivinar: protección moderada en escenarios de ataques fuera de línea con slow‑hash.\n"
+"<br>\n"
+" 4 - muy difícil de adivinar: protección sólida en escenarios de ataques fuera de línea con slow‑hash."
 
 #. Description of the 'Priority' (Int) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -993,7 +1001,7 @@ msgstr "Acerca de nosotros"
 #: frappe/website/doctype/about_us_settings/about_us_settings.json
 #: frappe/website/workspace/website/website.json
 msgid "About Us Settings"
-msgstr ""
+msgstr "Configuración Acerca de"
 
 #. Name of a DocType
 #: frappe/website/doctype/about_us_team_member/about_us_team_member.json
@@ -1085,7 +1093,7 @@ msgstr "Usuario de Cuentas"
 
 #: frappe/public/js/frappe/form/dashboard.js:510
 msgid "Accurate count can not be fetched, click here to view all documents"
-msgstr ""
+msgstr "No se puede obtener un conteo preciso, haz clic aquí para ver todos los documentos"
 
 #. Label of the action (Select) field in DocType 'Amended Document Naming
 #. Settings'
@@ -1643,7 +1651,7 @@ msgstr "Direcciones y contactos"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Addresses added here will be used as the Reply-To header for outgoing emails sent from this account."
-msgstr ""
+msgstr "Las direcciones añadidas aquí se usarán como encabezado Reply-To para los correos salientes enviados desde esta cuenta."
 
 #. Description of a DocType
 #: frappe/custom/doctype/client_script/client_script.json
@@ -1820,7 +1828,7 @@ msgstr "Alinear Valor"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Alignment"
-msgstr ""
+msgstr "Alineación"
 
 #. Name of a role
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
@@ -2114,7 +2122,7 @@ msgstr "Permitir impresión"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:425
 msgid "Allow recording my first session to improve user experience"
-msgstr ""
+msgstr "Permitir grabar mi primera sesión para mejorar la experiencia del usuario"
 
 #. Description of the 'Allow incomplete forms' (Check) field in DocType 'Web
 #. Form'
@@ -7377,7 +7385,7 @@ msgstr "Denegar"
 #. Label of the department (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Department"
-msgstr ""
+msgstr "Departamento"
 
 #. Label of the dependencies (Data) field in DocType 'Workspace Link'
 #: frappe/desk/doctype/workspace_link/workspace_link.json
@@ -7458,7 +7466,7 @@ msgstr "Descripción para informar al usuario sobre cualquier acción que se va 
 #. Label of the designation (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Designation"
-msgstr ""
+msgstr "Puesto de Trabajo"
 
 #. Label of the desk_access (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
@@ -8701,22 +8709,22 @@ msgstr "ESC"
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:46
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:84
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: frappe/public/js/frappe/list/list_view.js:2375
 msgctxt "Button in list view actions menu"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:32
 msgctxt "Button in web form"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: frappe/public/js/frappe/form/grid_row.js:336
 msgctxt "Edit grid row"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: frappe/public/js/frappe/ui/address_autocomplete/autocomplete_dialog.js:66
 msgid "Edit Address in Form"
@@ -10056,7 +10064,7 @@ msgstr "Exportar como zip"
 
 #: frappe/public/js/frappe/views/reports/report_utils.js:184
 msgid "Export in Background"
-msgstr ""
+msgstr "Exportar en Segundo Plano"
 
 #: frappe/public/js/frappe/utils/tools.js:11
 msgid "Export not allowed. You need {0} role to export."
@@ -20669,12 +20677,12 @@ msgstr "La clave primaria del doctype {0} no puede modificarse, ya que existen v
 #: frappe/public/js/frappe/views/reports/report_view.js:1589
 #: frappe/public/js/frappe/views/treeview.js:500 frappe/www/printview.html:18
 msgid "Print"
-msgstr ""
+msgstr "Imprimir"
 
 #: frappe/public/js/frappe/list/list_view.js:2281
 msgctxt "Button in list view actions menu"
 msgid "Print"
-msgstr ""
+msgstr "Imprimir"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:48
 msgid "Print Documents"
@@ -20741,7 +20749,7 @@ msgstr "Tipo de formato de impresión"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1654
 msgid "Print Format not found"
-msgstr ""
+msgstr "Formato de Impresión no encontrado"
 
 #: frappe/www/printview.py:447
 msgid "Print Format {0} is disabled"
@@ -21928,7 +21936,7 @@ msgstr "Referente"
 #: frappe/public/js/frappe/widgets/number_card_widget.js:352
 #: frappe/public/js/print_format_builder/Preview.vue:24
 msgid "Refresh"
-msgstr ""
+msgstr "Recargar"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:177
 msgid "Refresh All"
@@ -22469,7 +22477,7 @@ msgstr "Informe:"
 #: frappe/core/doctype/system_settings/system_settings.json
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:561
 msgid "Reports"
-msgstr ""
+msgstr "Reportes"
 
 #: frappe/patches/v14_0/update_workspace2.py:50
 msgid "Reports & Masters"
@@ -26172,32 +26180,32 @@ msgstr "Cola de envío"
 #: frappe/public/js/frappe/ui/capture.js:308
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
 msgid "Submit"
-msgstr ""
+msgstr "Validar"
 
 #: frappe/public/js/frappe/list/list_view.js:2348
 msgctxt "Button in list view actions menu"
 msgid "Submit"
-msgstr ""
+msgstr "Validar"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:56
 msgctxt "Button in web form"
 msgid "Submit"
-msgstr ""
+msgstr "Validar"
 
 #: frappe/public/js/frappe/ui/dialog.js:64
 msgctxt "Primary action in dialog"
 msgid "Submit"
-msgstr ""
+msgstr "Validar"
 
 #: frappe/public/js/frappe/ui/messages.js:97
 msgctxt "Primary action of prompt dialog"
 msgid "Submit"
-msgstr ""
+msgstr "Validar"
 
 #: frappe/public/js/frappe/desk.js:227
 msgctxt "Submit password for Email Account"
 msgid "Submit"
-msgstr ""
+msgstr "Validar"
 
 #. Label of the submit_after_import (Check) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -26726,7 +26734,7 @@ msgstr "Registros del sistema"
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 #: frappe/workflow/doctype/workflow_transition_tasks/workflow_transition_tasks.json
 msgid "System Manager"
-msgstr ""
+msgstr "Administrador del Sistema"
 
 #: frappe/desk/page/backups/backups.js:38
 msgid "System Manager privileges required."
