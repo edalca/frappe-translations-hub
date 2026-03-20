@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-12-21 09:37+0000\n"
-"PO-Revision-Date: 2026-03-20 07:30\n"
+"PO-Revision-Date: 2026-03-20 09:25\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -605,13 +605,13 @@ msgstr "La Cuenta de Anticipos es obligatoria. Por favor, configure la <a href='
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:79
 msgid "Advance Account {} currency should be same as Salary Currency of Employee {}. Please select same currency Advance Account"
-msgstr ""
+msgstr "La moneda de la Cuenta de Anticipo {} debe ser la misma que la Moneda Salarial del Empleado {}. Por favor selecciona una Cuenta de Anticipo con la misma moneda"
 
 #. Label of the base_advance_paid (Currency) field in DocType 'Expense Claim
 #. Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgid "Advance Paid (Company Currency)"
-msgstr ""
+msgstr "Anticipo Pagado (Moneda de la Empresa)"
 
 #. Label of the advanced_filters_section (Section Break) field in DocType
 #. 'Leave Control Panel'
@@ -627,7 +627,7 @@ msgstr "Filtros Avanzados"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:422
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
-msgstr ""
+msgstr "Todo el monto de Ganancia/Pérdida por Diferencia Cambiaria de {0} ha sido contabilizado a través de {1}"
 
 #: hrms/hr/doctype/goal/goal_tree.js:215
 msgid "All Goals"
@@ -668,7 +668,7 @@ msgstr "Asignar el día"
 #. Claim Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgid "Allocated Amount (Company Currency)"
-msgstr ""
+msgstr "Monto Asignado (Moneda de la Empresa)"
 
 #. Label of the allocated_leaves (Float) field in DocType 'Leave Adjustment'
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.json
@@ -679,7 +679,7 @@ msgstr "Vacaciones Asignadas"
 #. Label of the allocated_via (Select) field in DocType 'Earned Leave Schedule'
 #: hrms/hr/doctype/earned_leave_schedule/earned_leave_schedule.json
 msgid "Allocated Via"
-msgstr ""
+msgstr "Asignado a través de"
 
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.js:205
 msgid "Allocating Leave"
@@ -688,7 +688,7 @@ msgstr "Asignación de Permiso"
 #. Label of the allocation_date (Date) field in DocType 'Earned Leave Schedule'
 #: hrms/hr/doctype/earned_leave_schedule/earned_leave_schedule.json
 msgid "Allocation Date"
-msgstr ""
+msgstr "Fecha de Asignación"
 
 #. Label of the section_break_etvg (Section Break) field in DocType 'Leave
 #. Adjustment'
@@ -1185,12 +1185,12 @@ msgstr "¿Está seguro de que desea rechazar la Recomendación del empleado?"
 #. Name of a DocType
 #: hrms/payroll/doctype/arrear/arrear.json
 msgid "Arrear"
-msgstr ""
+msgstr "Pagos atrasados"
 
 #. Label of the arrear_component (Check) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
 msgid "Arrear Component"
-msgstr ""
+msgstr "Componente de Pagos Atrasados"
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:95
 msgid "Arrear Component cannot be set for Salary Components based on taxable salary."
@@ -7199,7 +7199,7 @@ msgstr ""
 #. Label of the overtime_step (Select) field in DocType 'Payroll Entry'
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 msgid "Overtime Slip Step"
-msgstr ""
+msgstr "Paso del Comprobante de Horas Extra"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.py:491
 msgid "Overtime Slip Submission Error for {0}"
@@ -8019,7 +8019,7 @@ msgstr "Beneficios"
 #: hrms/hr/report/project_profitability/project_profitability.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Project Profitability"
-msgstr ""
+msgstr "Rentabilidad del Proyecto"
 
 #. Label of a Card Break in the Performance Workspace
 #: hrms/hr/workspace/performance/performance.json
