@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-03-08 09:41+0000\n"
-"PO-Revision-Date: 2026-03-20 20:59\n"
+"PO-Revision-Date: 2026-03-21 20:58\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -3771,7 +3771,7 @@ msgstr "Biografía"
 #. Label of the birth_date (Date) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Birth Date"
-msgstr "Fecha de nacimiento"
+msgstr "Fecha de Nacimiento"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:41
 msgid "Blank Template"
@@ -4001,7 +4001,7 @@ msgstr "Botón"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Button Color"
-msgstr ""
+msgstr "Color del Botón"
 
 #. Label of the button_gradients (Check) field in DocType 'Website Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
@@ -4189,7 +4189,7 @@ msgstr "Cámara"
 #: frappe/website/doctype/web_page_view/web_page_view.json
 #: frappe/website/report/website_analytics/website_analytics.js:39
 msgid "Campaign"
-msgstr ""
+msgstr "Campaña"
 
 #. Label of the campaign_description (Small Text) field in DocType 'UTM
 #. Campaign'
@@ -7521,7 +7521,7 @@ msgstr "Tema de Escritorio"
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "Desk User"
-msgstr ""
+msgstr "Usuario de Escritorio"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_header.js:12
 #: frappe/www/me.html:86
@@ -8950,7 +8950,7 @@ msgstr "Selector de elementos"
 #: frappe/workspace_sidebar/email.json frappe/www/login.html:8
 #: frappe/www/login.py:104
 msgid "Email"
-msgstr ""
+msgstr "Correo Electrónico"
 
 #. Label of the email_account (Link) field in DocType 'Communication'
 #. Label of the email_account (Link) field in DocType 'User Email'
@@ -11456,7 +11456,7 @@ msgstr ""
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/website/report/website_analytics/website_analytics.js:8
 msgid "From Date"
-msgstr ""
+msgstr "A Partir de la fecha"
 
 #. Label of the from_date_field (Select) field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
@@ -12543,7 +12543,7 @@ msgstr "Sugerencia: Incluya símbolos, números y letras mayúsculas en la contr
 #: frappe/www/contact.py:25 frappe/www/login.html:170 frappe/www/me.html:76
 #: frappe/www/message.html:29
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #. Label of the home_page (Data) field in DocType 'Role'
 #. Label of the home_page (Data) field in DocType 'Website Settings'
@@ -13140,12 +13140,12 @@ msgstr "Implícito"
 #: frappe/core/page/permission_manager/permission_manager_help.html:71
 #: frappe/email/doctype/email_group/email_group.js:31
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 #: frappe/public/js/frappe/list/list_view.js:1952
 msgctxt "Button in list view menu"
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 #: frappe/email/doctype/email_group/email_group.js:14
 msgid "Import Email From"
@@ -14149,7 +14149,7 @@ msgstr "Es"
 #. Label of the is_active (Check) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Is Active"
-msgstr ""
+msgstr "Está Activo"
 
 #. Label of the is_attachments_folder (Check) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
@@ -14226,7 +14226,7 @@ msgstr "Es Global"
 
 #: frappe/public/js/frappe/views/treeview.js:426
 msgid "Is Group"
-msgstr ""
+msgstr "Es un Grupo"
 
 #. Label of the is_hidden (Check) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -16621,7 +16621,7 @@ msgstr "Falta un valor"
 #: frappe/public/js/workflow_builder/store.js:97
 #: frappe/workflow/doctype/workflow/workflow.js:71
 msgid "Missing Values Required"
-msgstr ""
+msgstr "Faltan Valores Requeridos"
 
 #: frappe/www/login.py:107
 msgid "Mobile"
@@ -18095,7 +18095,7 @@ msgstr "Usuario no válido"
 
 #: frappe/workflow/doctype/workflow/workflow_list.js:7
 msgid "Not active"
-msgstr ""
+msgstr "Inactivo"
 
 #: frappe/permissions.py:395
 msgid "Not allowed for {0}: {1}"
@@ -22308,7 +22308,7 @@ msgstr ""
 #: frappe/public/js/frappe/utils/utils.js:947
 #: frappe/workspace_sidebar/build.json
 msgid "Report"
-msgstr ""
+msgstr "Reporte"
 
 #. Option for the 'Report Type' (Select) field in DocType 'Report'
 #. Option for the 'DocType View' (Select) field in DocType 'Workspace Shortcut'
@@ -23092,7 +23092,7 @@ msgstr "Redirecciones de ruta"
 #. Description of the 'Home Page' (Data) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
 msgid "Route: Example \"/desk\""
-msgstr ""
+msgstr "Ruta: Ejemplo \"/desk\""
 
 #: frappe/model/base_document.py:982 frappe/model/document.py:821
 msgid "Row"
@@ -27997,7 +27997,7 @@ msgstr ""
 #: frappe/website/doctype/website_sidebar/website_sidebar.json
 #: frappe/website/doctype/website_sidebar_item/website_sidebar_item.json
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #. Label of the title_field (Data) field in DocType 'DocType'
 #. Label of the title_field (Data) field in DocType 'Customize Form'
@@ -29315,7 +29315,7 @@ msgstr "Se usó OAuth"
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workspace_sidebar/users.json
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #: frappe/core/doctype/has_role/has_role.py:25
 msgid "User '{0}' already has the role '{1}'"
