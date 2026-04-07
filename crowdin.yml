@@ -3,9 +3,11 @@ files:
     translation: /frappe/locale/%two_letters_code%.po
   - source: /hrms/locale/main.pot
     translation: /hrms/locale/%two_letters_code%.po
-pull_request_title: 'fix: sync translations from crowdin'
+  - source: /southwest/locale/main.pot
+    translation: /southwest/locale/%two_letters_code%.po
+pull_request_title: "fix: sync translations from crowdin"
 pull_request_labels:
   - translation
   - skip-release-notes
-commit_message: 'fix: %language% translations'
-append_commit_message: 
+commit_message: "fix: %language% translations"
+append_commit_message:
