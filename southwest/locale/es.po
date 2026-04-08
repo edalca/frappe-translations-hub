@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe-hub\n"
 "Report-Msgid-Bugs-To: edwinalonso162@hotmail.com\n"
 "POT-Creation-Date: 2026-03-31 02:07+0000\n"
-"PO-Revision-Date: 2026-04-07 08:24\n"
+"PO-Revision-Date: 2026-04-08 08:28\n"
 "Last-Translator: edwinalonso162@hotmail.com\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Label of the equipment_class (Data) field in DocType 'Customer Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Class"
-msgstr ""
+msgstr "Clase"
 
 #: southwest/startup/custom_fields.py:50
 msgid "Component"
@@ -31,31 +31,31 @@ msgstr "Componente"
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 #: southwest/startup/custom_fields.py:42
 msgid "Customer"
-msgstr ""
+msgstr "Cliente"
 
 #: southwest/startup/custom_fields.py:26
 msgid "Customer Code"
-msgstr ""
+msgstr "Código de Cliente"
 
 #. Label of a Workspace Sidebar Item
 #: southwest/workspace_sidebar/service_management.json
 msgid "Customer Equipmen"
-msgstr ""
+msgstr "Equipos del cliente"
 
 #. Name of a DocType
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Customer Equipment"
-msgstr ""
+msgstr "Equipo del Cliente"
 
 #. Label of the equipment_details_column (Column Break) field in DocType
 #. 'Customer Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Equipment Details"
-msgstr ""
+msgstr "Detalles del Equipo"
 
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.js:4
 msgid "Fill in the required fields. The Equipment ID will be generated automatically."
-msgstr ""
+msgstr "Rellena los campos requeridos. La ID del equipo se generará automáticamente."
 
 #. Label of the frequency_pm_cost (Currency) field in DocType 'Customer
 #. Equipment'
@@ -76,42 +76,42 @@ msgstr ""
 #: southwest/service_management/doctype/make/make.json
 #: southwest/workspace_sidebar/service_management.json
 msgid "Make"
-msgstr ""
+msgstr "Marca"
 
 #. Label of the make_name (Data) field in DocType 'Make'
 #: southwest/service_management/doctype/make/make.json
 msgid "Make Name"
-msgstr ""
+msgstr "Nombre de la Marca"
 
 #. Label of the misc_cost (Currency) field in DocType 'Customer Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Misc"
-msgstr ""
+msgstr "Misc"
 
 #. Label of the model (Data) field in DocType 'Customer Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Model"
-msgstr ""
+msgstr "Modelo"
 
 #: southwest/startup/custom_fields.py:57
 msgid "Part Color"
-msgstr ""
+msgstr "Color de Parte"
 
 #. Label of the serial_no (Data) field in DocType 'Customer Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Serial No"
-msgstr ""
+msgstr "Nº de Serie"
 
 #. Label of the series (Data) field in DocType 'Customer Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Series"
-msgstr ""
+msgstr "Series"
 
 #. Label of the service_costs_column (Column Break) field in DocType 'Customer
 #. Equipment'
 #: southwest/service_management/doctype/customer_equipment/customer_equipment.json
 msgid "Service Costs"
-msgstr ""
+msgstr "Costo del Servicio"
 
 #. Label of a Desktop Icon
 #. Title of a Workspace Sidebar
